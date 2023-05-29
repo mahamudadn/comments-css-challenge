@@ -24,7 +24,80 @@
 </head>
 <body>
   
+  <div id="comment1" class="grid-container grid-container--posted">
+    <div class="flex vote">
+      <img src="images/icon-plus.svg" alt="upvote">
+      <p class="purple">12</p>
+      <img src="images/icon-minus.svg" alt="downvote">
+    </div>
+    <picture class="user">
+      <source srcset="images/avatars/image-amyrobson.webp" type="image/webp">
+      <img src="images/avatars/image-amyrobson.png" alt="julius avatar">
+    </picture>
+    <h3>amyrobson</h3>
+    <p class="time">1 month ago</p>
+    <a id="reply1" class="purple" href="#"><img src="images/icon-reply.svg" alt="reply button"> Reply</a>
+    <p class="comment">Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
 
+  </div>
+
+  <div id="comment2" class="grid-container grid-container--posted">
+    <div class="flex vote">
+      <img src="images/icon-plus.svg" alt="upvote">
+      <p class="purple">5</p>
+      <img src="images/icon-minus.svg" alt="downvote">
+    </div>
+
+    <picture class="user">
+      <source srcset="images/avatars/image-maxblagun.webp" type="image/webp">
+      <img src="images/avatars/image-maxblagun.png" alt="julius avatar">
+    </picture>
+
+    <h3>maxblagun</h3>
+    <p class="time">2 weeks ago</p>
+    <a id="reply2" class="purple" href="#"><img src="images/icon-reply.svg" alt="reply button"> Reply</a>
+    <p class="comment">Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!</p>
+
+  </div>
+  <div class="reply">
+    <div id="comment3" class="grid-container grid-container--posted">
+      <div class="flex vote">
+        <img src="images/icon-plus.svg" alt="upvote">
+        <p class="purple">4</p>
+        <img src="images/icon-minus.svg" alt="downvote">
+      </div>
+
+      <picture class="user">
+        <source srcset="images/avatars/image-ramsesmiron.webp" type="image/webp">
+        <img src="images/avatars/image-ramsesmiron.png" alt="julius avatar">
+      </picture>
+
+      <h3>ramsesmiron</h3>
+      <p class="time">1 week ago</p>
+      <a id="reply3" class="purple" href="#"><img src="images/icon-reply.svg" alt="reply button"> Reply</a>
+      <p class="comment"><span class="purple">@maxblagun</span> If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.</p>
+
+    </div>
+    <div id="comment4" class="grid-container grid-container--you">
+      <div class="flex vote">
+        <img src="images/icon-plus.svg" alt="upvote">
+        <p class="purple">2</p>
+        <img src="images/icon-minus.svg" alt="downvote">
+      </div>
+
+      <picture class="user">
+        <source srcset="images/avatars/image-juliusomo.webp" type="image/webp">
+        <img src="images/avatars/image-juliusomo.png" alt="julius avatar">
+      </picture>
+
+      <h3>juliusomo</h3>
+      <p class="you">you</p>
+      <p class="time">2 days ago</p>
+      <button class="red delete" data-bs-toggle="modal" data-bs-target="#modal"><img src="images/icon-delete.svg" alt="delete button"> Delete</button>
+      <a class="purple" href="#"><img src="images/icon-edit.svg" alt="edit button"> Edit</a>
+      <p class="comment"><span class="purple">@ramsesmiron</span> I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.</p>
+
+    </div>
 
 </body>
 
