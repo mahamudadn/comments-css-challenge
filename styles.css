@@ -42,6 +42,7 @@
 
 
     body {
+        font-family: rubik;
         font-family: var(--ff-sans);
         font-size: var(--fs-400);
         color: hsl( var(--clr-greyb) );
