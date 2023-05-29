@@ -184,6 +184,8 @@
     }
     .vote > img {
     opacity: 0.5;
+    background-color: aquamarine;
+
     }
     .vote > img:hover {
     cursor: pointer;
