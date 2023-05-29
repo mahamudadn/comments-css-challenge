@@ -1,0 +1,48 @@
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+
+:root {
+    /* colors */
+    --clr-darkb: 212, 24%, 26%;
+    --clr-vlightg: 228 33% 97%;
+    --clr-lightg: 223 19% 97%;
+    --clr-lightgb: 239 57% 85%;
+    --clr-greyb:211, 10%, 45%;
+    --clr-white: 0 0% 100%;
+    --clr-modblue: 238, 40%, 52%;
+    --clr-softred: 358, 79%, 66%;
+    --clr-palered: 357, 100%, 86%;
+
+
+    --fs-700: 1.5rem;
+    /* --fs-600: 1rem; */
+    --fs-500: 1.1rem;
+    --fs-400: 1rem;
+
+    --ff-sans: 'Rubik', sans-serif;
+
+}
+
+@media (min-width: 35em) {
+    :root {
+
+}
+}
+@media (min-width: 45em) {
+    :root {
+    
+    }
+}
+
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reset margins */
+body, h1, h2, h3, h4, h5, p, figure, picture {
+    margin: 0;
+}
+
